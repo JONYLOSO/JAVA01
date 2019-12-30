@@ -16,6 +16,8 @@ class n001{
         System.out.println(cars.get(0));
         cars.set(0, "AAAAAAAAAAA");
         cars.set(1, "BBBBBBBBBBB");
+        cars.set(1, "BBBBBBBBBBB");
+        cars.set(1, "BBBBBBBBBBB");
         for(String p :cars)System.out.println(p);
 
             
