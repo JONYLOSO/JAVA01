@@ -1,4 +1,11 @@
 import java.util.*;
+
+enum Level {
+    LOW,
+    MEDIUM,
+    HIGH
+  }
+
 class n001{
 
     public static void main(String[] args){
@@ -9,8 +16,8 @@ class n001{
         cars.add("BMW");
         cars.add("Ford");
         cars.add("Mazda");
-        cars.add(sc.nextLine());
-       // cars.clear();
+    //  cars.add(sc.nextLine());
+    //  cars.clear();
         System.out.println("===========================\n"+cars.size());
         System.out.println(cars.get(0));
         cars.set(0, "AAAAAAAAAAA");
@@ -18,16 +25,20 @@ class n001{
         for(String p :cars)System.out.println(p);
         System.out.println("===========================");
         for(String ppp :cars)System.out.println(ppp);
+        System.out.println("===========================");
 
-            
-
-
+        System.out.println(Level.LOW);
+       
+       
+        /*
+        try{
+            int oo =10;
+        }catch(Exception e){
+            System.out.println("XXXXXX");
+        }
+        */
 
 
     }
-
-
-
-
 
 }
