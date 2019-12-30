@@ -3,9 +3,7 @@ class n001{
 
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-        char[] n = new char[10];
-        n[0]='n';  
-
+        int[] pp ={11,25,63,454,5,88,9,6,555};
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");
@@ -18,6 +16,8 @@ class n001{
         cars.set(0, "AAAAAAAAAAA");
         cars.set(1, "BBBBBBBBBBB");
         for(String p :cars)System.out.println(p);
+        System.out.println("===========================");
+        for(String ppp :cars)System.out.println(ppp);
 
             
 
