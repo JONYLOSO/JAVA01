@@ -11,6 +11,7 @@ class n001{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int[] pp ={11,25,63,454,5,88,9,6,555};
+        Collections.sort(pp);
         ArrayList<String> cars = new ArrayList<String>();
         cars.add("Volvo");
         cars.add("BMW");
